@@ -16,7 +16,7 @@ namespace DatabaseExample_Tuesday
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ProductDataGridForm());
+            Application.Run(new CustomerInvoicesForm());
         }
     }
 }

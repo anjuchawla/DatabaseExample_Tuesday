@@ -61,6 +61,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomerInvoicesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerInvoicesForm.Designer.cs">
+      <DependentUpon>CustomerInvoicesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomersDataDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomersDataDetails.Designer.cs">
+      <DependentUpon>CustomersDataDetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="ProductDataGridForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +86,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CustomerInvoicesForm.resx">
+      <DependentUpon>CustomerInvoicesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomersDataDetails.resx">
+      <DependentUpon>CustomersDataDetails.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ProductDataGridForm.resx">
       <DependentUpon>ProductDataGridForm.cs</DependentUpon>
     </EmbeddedResource>
